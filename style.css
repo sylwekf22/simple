@@ -1,0 +1,271 @@
+#wrapper {
+    position: relative;
+    background-color: white;
+    min-width: 970px;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#barTopBackgrund {
+    background-image: url(img/shape_top.jpg);
+    width: 100%;
+    height: 50px;
+}
+
+.enterText {
+    position: absolute;
+    right: 50px;
+    top: 13px;
+    width: 0;
+    opacity: 0.45;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    
+    
+    -webkit-transition:1s;
+    transition: 1s;
+}
+
+
+#magnifier {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 30px;
+    cursor: pointer
+}
+
+#leftContent {
+    background-color: white;
+    position: absolute;
+    height: 96.6%;
+    left: 0px;
+    --webkit-box-shadow: 4px -1px 9px 0px rgba(50, 50, 50, 0.41);
+    -moz-box-shadow: 4px -1px 9px 0px rgba(50, 50, 50, 0.41);
+    box-shadow: 4px -1px 9px 0px rgba(50, 50, 50, 0.41);
+    z-index: 1;
+}
+
+#ejected {
+    width: 180px;
+    /*    height: 1120px;*/
+    height: 100%;
+    display: block;
+}
+
+#align {
+    margin-left: 30px;
+}
+
+#ejected h2,
+#ejected ul {
+    width: 100px;
+    margin: 0px;
+    display: block;
+    padding: 17px 0px 17px 0px;
+    border-bottom: dotted 2px #294F6B
+}
+
+#menu {
+    color: #436179;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navHide {
+    position: absolute;
+    top: 348px;
+    left: 147px;
+    cursor: pointer
+}
+
+#facebook,
+#linkedin {
+    position: relative;
+    display: block;
+    padding: 17px 0px 17px 0px;
+}
+
+#leftContent li {
+    display: block;
+    padding: 5px;
+    margin-left: 0px;
+    padding-left: 0px;
+    color: #294F6B;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer
+}
+
+#leftContent li:hover {
+    border-left: #023A5C 2px solid
+}
+
+#eject {
+    width: 66px;
+    height: 100%;
+    display: none;
+}
+
+#navShow {
+    position: absolute;
+    top: 348px;
+    left: 20%;
+    cursor: pointer;
+}
+
+#mainContent {
+    display: block;
+    width: 840px;
+    max-height: 1500px;
+    background-color: white;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mainContent #barTop {
+    width: 692px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: inline-block;
+}
+
+header {
+    display: inline-block;
+    position: absolute;
+    top: -50px;
+    width: inherit;
+    height: 130px;
+}
+
+header figure {
+    background-color: white;
+    background-size: auto;
+    width: 190px;
+    height: 130px;
+    position: relative;
+    left: -41px;
+    top: -18px;
+    display: inline-block;
+    -webkit-box-shadow: 3px 3px 9px 0px rgba(50, 50, 50, 0.41);
+    -moz-box-shadow: 3px 3px 9px 0px rgba(50, 50, 50, 0.41);
+    box-shadow: 3px 3px 9px 0px rgba(50, 50, 50, 0.41);
+}
+
+header figure img {
+    width: 150px;
+    height: 110px;
+    position: relative;
+    left: 20px;
+    top: 3px;
+}
+
+#infoHeader {
+    height: 170px;
+    border-bottom: dotted 2px #294F6B;
+}
+
+#infoHeader img {
+    width: 160px;
+    position: absolute;
+    left: 40%;
+    top: 72px
+}
+
+#mainContent ul {
+    height: inherit;
+    float: right;
+}
+
+#mainContent li {
+    display: inline-block;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 0px 13px 7px 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer
+}
+
+#mainContent li:hover {
+    color: azure
+}
+
+#lastOneLi {
+    padding-right: 0px !important;
+}
+
+article {
+    width: 840px;
+    height: 1000px
+}
+
+h3 {
+    font-size: 15px;
+    font-family: "Arial", sans-serif;
+    margin-bottom: 0px
+}
+
+#column1,
+#column2 {
+    margin-top: 10px;
+    box-sizing: border-box;
+    height: inherit;
+    width: 410px;
+    position: relative;
+    top: 0px;
+    overflow: hidden;
+}
+
+#column1:hover {
+    overflow: visible;
+}
+
+#column2:hover {
+    overflow: visible;
+}
+
+#column1 {
+    float: left
+}
+
+#column2 {
+    margin-left: 10px;
+    padding-top: 50px;
+    float: right
+}
+
+#column1 figure {
+    position: relative;
+    left: -42px;
+    width: 100%;
+}
+
+#column1 figure img {
+    width: 100%
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+    font-size: 17.448px;
+    font-family: "Myriad Pro";
+    color: rgb(55, 55, 73);
+    line-height: 1.2;
+}
+
+#special {
+    padding-top: 10px
+}
+
+footer {
+    clear: both;
+    background-image: url(img/shape_bottom.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 50px;
+}
